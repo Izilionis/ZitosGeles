@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+    /* font-size: clamp(5px, 3vw, 40px) */
+}

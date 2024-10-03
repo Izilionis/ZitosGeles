@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    max-height: 400px;
+}
+.container div{
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 25%;
+    margin: 2px;
+    height: clamp(200px, 30vw, 400px);
+    background-color: white;
+}
+
+.container :nth-child(1){
+    background-image: url(../img/a1.jpg);
+    background-size: cover;
+}
+.container :nth-child(2){
+    background-image: url(../img/a3.jpg);
+    background-size: cover;
+}
+.container :nth-child(3){
+    background-image: url(../img/a2.jpg);
+    background-size: cover;
+}

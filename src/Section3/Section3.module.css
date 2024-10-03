@@ -1,0 +1,15 @@
+.container{
+    padding: 30px;
+    background-image:linear-gradient(rgb(0, 0, 0, 2),rgba(134, 45, 45, 0.3)), url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container div{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: clamp(11px, 2vw, 20px);
+    width: 80%;
+    margin: auto;
+    
+}
